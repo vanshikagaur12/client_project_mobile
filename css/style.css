@@ -12,9 +12,9 @@
     top: 20px;
     left: 10px; }
 
-section {width: 100%; margin: auto}
+section {max-width: 100%; margin: auto}
 
-article {width: 100%; margin: auto}
+article {max-width: 100%; margin: auto}
 
 header { background-color: #00274c;
     position: relative;
@@ -131,7 +131,7 @@ font-family: nunito, sans-serif;
     }  */
 
     img {grid-column: 1/-1;
-        width: 100%;
+        max-width: 100%;
         object-fit: cover;
         overflow: hidden;
         padding-top: 20px;
